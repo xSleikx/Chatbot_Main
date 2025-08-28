@@ -62,7 +62,7 @@ This will launch a **Gradio UI** in your browser.
 ---
 
 ## 🖼️ UI Preview
-- Left panel: Upload PDF/audio file, adjust chunk size/overlap, select model.  
+- Upload PDF/audio file, adjust chunk size/overlap, select model.  
 - Chat window: Interact with the bot.  
 - Avatars: 🦙 llama bot + capybara user (custom images under `pictures/`).  
 
@@ -75,6 +75,7 @@ This will launch a **Gradio UI** in your browser.
 ├── audioRAG.py         # Audio retrieval logic
 ├── requirements.txt    # Python dependencies
 ├── .env                # Environment variables (not committed to git)
+├── jp_audio/           # Audio example
 └── pictures/           # Avatar images for chatbot
 ```
 
@@ -82,8 +83,8 @@ This will launch a **Gradio UI** in your browser.
 
 ## ✅ Example Usage
 1. Select a model (`Groq` or `Ollama`).  
-2. Upload a PDF or audio file.  
-3. Type a question related to the file content.  
+2. Type a question related to the file content.   
+3. Upload a PDF or audio file.
 4. Get contextualized answers using **RAG**.  
 5. Or, type directly into the text box for normal LLM Q&A.  
 

@@ -17,6 +17,9 @@ The chatbot supports multiple LLM backends (can add or remove models):
 - 🧹 Conversation history reset & clear functions  
 - 🎨 Custom avatars for user & bot in Gradio Chatbot  
 
+### Gradio UI
+![Gradio UI](examples/ui_example_image.png)
+
 ---
 
 ## ⚙️ Installation
@@ -75,7 +78,7 @@ This will launch a **Gradio UI** in your browser.
 ├── audioRAG.py         # Audio retrieval logic
 ├── requirements.txt    # Python dependencies
 ├── .env                # Environment variables (not committed to git)
-├── jp_audio/           # Audio example
+├── examples/           # Audio and PDF examples
 └── pictures/           # Avatar images for chatbot
 ```
 
